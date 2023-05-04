@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 100%;
+  max-width: 500px;
+  font-family: "Manrope", sans-serif;
+  border: 1px solid red;
+  position: relative;
+  border-radius: 10px;
+  background-color: hsl(217, 19%, 24%);
+}
+.card-inside {
+  margin: 30px;
+  text-align: center;
+  border: 1px solid red;
+}
+.idbox {
+  /* font-size: 16px; */
+  margin-bottom: 15px;
+  color: hsl(150, 100%, 66%);
+}
+.advicebox {
+  margin-bottom: 20px;
+}
+.advice-text {
+  color: hsl(193, 38%, 86%);
+  font-size: 28px;
+  font-weight: 800;
+}
+.divider {
+  margin-bottom: 10px;
+}
+.pix {
+  width: 100%;
+  object-fit: contain;
+}
+.btn {
+  border: none;
+  padding: 15px 15px;
+  border-radius: 50px;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  transform: translateX(-23px);
+}
+.btn:hover {
+  box-shadow: -11px -11px 100px hsl(150, 100%, 66%);
+}
