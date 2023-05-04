@@ -16,7 +16,7 @@
   width: 100%;
   max-width: 500px;
   font-family: "Manrope", sans-serif;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
   border-radius: 10px;
   background-color: hsl(217, 19%, 24%);
@@ -24,12 +24,14 @@
 .card-inside {
   margin: 30px;
   text-align: center;
-  border: 1px solid red;
+  border: 1px solid hsl(217, 19%, 24%);
 }
 .idbox {
-  /* font-size: 16px; */
+  font-size: 13px;
   margin-bottom: 15px;
   color: hsl(150, 100%, 66%);
+  font-weight: lighter;
+  letter-spacing: 3px;
 }
 .advicebox {
   margin-bottom: 20px;
@@ -40,7 +42,7 @@
   font-weight: 800;
 }
 .divider {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .pix {
   width: 100%;
@@ -52,7 +54,7 @@
   border-radius: 50px;
   background-color: hsl(150, 100%, 66%);
   position: absolute;
-  transform: translateX(-23px);
+  transform: translate(-23px, 0px);
 }
 .btn:hover {
   box-shadow: -11px -11px 100px hsl(150, 100%, 66%);
